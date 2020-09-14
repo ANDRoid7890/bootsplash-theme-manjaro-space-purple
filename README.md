@@ -5,7 +5,7 @@ Bootsplash theme for Manjaro Linux.
 
 `git clone https://github.com/ANDRoid7890/bootsplash-theme-manjaro-space-purple.git`
 
-`cd bootsplash-theme-manjaro-space purple`
+`cd bootsplash-theme-manjaro-space-purple`
 
 Run `chmod +x bootsplash-packer bootsplash-theme-manjaro-space.sh`
 
