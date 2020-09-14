@@ -18,12 +18,12 @@ LOGO_HEIGHT=$(identify $LOGO | head -1 | cut -d " " -f 3 | \
 						 cut -d x -f 2)
 
 convert -alpha remove \
-	-logo "#000000" \
+	-background "#000000" \
 	$THROBBER \
 	throbber%02d.rgb
 
 convert -alpha remove \
-	-logo "#000000" \
+	-background "#000000" \
 	$LOGO \
 	LOGO%03d.rgb
 
