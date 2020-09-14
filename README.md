@@ -3,17 +3,17 @@ Bootsplash theme for Manjaro Linux.
 
 # Installation & configuration
 
-`git clone https://github.com/ANDRoid7890/bootsplash-theme-manjaro-glitch.git`
+`git clone https://github.com/ANDRoid7890/bootsplash-theme-manjaro-space-purple.git`
 
-`cd bootsplash-theme-manjaro-glitch`
+`cd bootsplash-theme-manjaro-space purple`
 
 Run `chmod +x bootsplash-packer bootsplash-theme-manjaro-glitch.sh`
 
 Run `makepkg` to create Arch package and install it with `pacman -U %packagename%`
 
-Append `bootsplash-theme-manjaro-glitch` hook in the end of `HOOKS` string of /etc/mkinitcpio.conf
+Append `bootsplash-theme-manjaro-space-purple` hook in the end of `HOOKS` string of /etc/mkinitcpio.conf
 
-Add `bootsplash.bootfile=bootsplash-themes/manjaro-glitch/bootsplash` into `GRUB_CMDLINE_LINUX` string of `/etc/default/grub`
+Add `bootsplash.bootfile=bootsplash-themes/manjaro-space-purple/bootsplash` into `GRUB_CMDLINE_LINUX` string of `/etc/default/grub`
 
 Run `sudo mkinitcpio -P && sudo update-grub` to update initial ram disk and grub configuration
 
