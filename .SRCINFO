@@ -1,15 +1,14 @@
-pkgbase = bootsplash-theme-manjaro-glitch
-	pkgdesc = Simple Manjaro Bootsplash with cool glitch effect
+pkgbase = bootsplash-theme-manjaro-space-purple
+	pkgdesc = Beautiful Manjaro Bootsplash with space animation
 	pkgver = 1.0
 	pkgrel = 1
+	url = https://github.com/ANDRoid7890/bootsplash-theme-manjaro-space-purple
 	arch = x86_64
 	license = GPL
 	optdepends = bootsplash-systemd: for bootsplash functionality
-	options = !libtool
-	options = !emptydirs
 	source = bootsplash-packer
-	source = bootsplash-manjaro-glitch.sh
-	source = bootsplash-manjaro-glitch.initcpio_install
+	source = bootsplash-manjaro-space.sh
+	source = bootsplash-manjaro-space-purple.initcpio_install
 	source = logo.gif
 	source = spinner.gif
 	sha256sums = SKIP
@@ -18,6 +17,6 @@ pkgbase = bootsplash-theme-manjaro-glitch
 	sha256sums = SKIP
 	sha256sums = SKIP
 
-pkgname = bootsplash-theme-manjaro-glitch
-	pkgdesc = Simple Manjaro Bootsplash with cool glitch effect
+pkgname = bootsplash-theme-manjaro-space-purple
+	pkgdesc = Beautiful Manjaro Bootsplash with space animation
 
