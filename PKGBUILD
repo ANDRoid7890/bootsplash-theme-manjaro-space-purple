@@ -1,19 +1,18 @@
 # Maintainer: Andrey Alekseev <andrey.android7890@gmail.com>
 
-pkgname=('bootsplash-theme-manjaro-glitch')
+pkgname=('bootsplash-theme-manjaro-space-purple')
 pkgver=1.0
 pkgrel=1
 arch=('x86_64')
-pkgdesc="Simple Manjaro Bootsplash with cool glitch effect"
+pkgdesc="Beautiful Manjaro Bootsplash with space animation"
+url="https://github.com/ANDRoid7890/bootsplash-theme-manjaro-space-purple"
 license=('GPL')
 depends=()
 optdepends=('bootsplash-systemd: for bootsplash functionality')
-builddepends=('imagemagick')
-options=('!libtool' '!emptydirs')
 
 source=('bootsplash-packer'
-	'bootsplash-manjaro-glitch.sh'
-	'bootsplash-manjaro-glitch.initcpio_install'
+	'bootsplash-manjaro-space.sh'
+	'bootsplash-manjaro-space-purple.initcpio_install'
 	'logo.gif'
 	'spinner.gif')
 
@@ -25,13 +24,13 @@ sha256sums=('SKIP'
 
 build() {
   cd "$srcdir"
-  sh ./bootsplash-manjaro-glitch.sh
+  sh ./bootsplash-manjaro-space.sh
 }
 
-package_bootsplash-theme-manjaro-glitch() {
-  pkgdesc="Simple Manjaro Bootsplash with cool glitch effect"
+package_bootsplash-theme-manjaro-space-purple() {
+  pkgdesc="Beautiful Manjaro Bootsplash with space animation"
   cd "$srcdir"
 
-  install -Dm644 "$srcdir/bootsplash-manjaro-glitch" "$pkgdir/usr/lib/firmware/bootsplash-themes/manjaro-glitch/bootsplash"
-  install -Dm644 "$srcdir/bootsplash-manjaro-glitch.initcpio_install" "$pkgdir/usr/lib/initcpio/install/bootsplash-manjaro-glitch"
+  install -Dm644 "$srcdir/bootsplash-manjaro-space-purple" "$pkgdir/usr/lib/firmware/bootsplash-themes/manjaro-space-purple/bootsplash"
+  install -Dm644 "$srcdir/bootsplash-manjaro-space-purple.initcpio_install" "$pkgdir/usr/lib/initcpio/install/bootsplash-manjaro-space-purple"
 }
