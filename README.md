@@ -11,7 +11,7 @@ Run `chmod +x bootsplash-packer bootsplash-theme-manjaro-space.sh`
 
 Run `makepkg` to create Arch package and install it with `pacman -U %packagename%`
 
-Append `bootsplash-theme-manjaro-space-purple` hook in the end of `HOOKS` string of /etc/mkinitcpio.conf
+Append `bootsplash-manjaro-space-purple` hook in the end of `HOOKS` string of /etc/mkinitcpio.conf
 
 Add `bootsplash.bootfile=bootsplash-themes/manjaro-space-purple/bootsplash` into `GRUB_CMDLINE_LINUX` string of `/etc/default/grub`
 
