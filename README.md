@@ -7,7 +7,7 @@ Bootsplash theme for Manjaro Linux.
 
 `cd bootsplash-theme-manjaro-space purple`
 
-Run `chmod +x bootsplash-packer bootsplash-theme-manjaro-glitch.sh`
+Run `chmod +x bootsplash-packer bootsplash-theme-manjaro-space.sh`
 
 Run `makepkg` to create Arch package and install it with `pacman -U %packagename%`
 
