@@ -1025,6 +1025,6 @@ convert -alpha remove \
 	--blob throbber72.rgb \
 	--blob throbber73.rgb \
 	--blob throbber74.rgb \
-	bootsplash-manjaro-space
+	bootsplash-manjaro-space-purple
 
 rm *.rgb
